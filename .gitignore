@@ -1,0 +1,104 @@
+# ================================
+# Python Bytecode & Cache
+# ================================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ================================
+# Virtual Environments
+# ================================
+env/
+venv/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ================================
+# Jupyter Notebook Checkpoints
+# ================================
+.ipynb_checkpoints/
+
+# ================================
+# Python build artifacts
+# ================================
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ================================
+# Logs & temp files
+# ================================
+*.log
+*.tmp
+*.bak
+*.swp
+
+# ================================
+# Environment variables & secrets
+# ================================
+.env
+.env.*
+secrets.yml
+*.pem
+*.key
+
+# ================================
+# OS generated files
+# ================================
+.DS_Store
+Thumbs.db
+
+# ================================
+# IDE / Editor configs
+# ================================
+.vscode/
+.idea/
+*.iml
+
+# ================================
+# Testing & coverage
+# ================================
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# ================================
+# ML / Data Science specific
+# ================================
+mlruns/
+data/
+datasets/
+*.h5
+*.pkl
+*.joblib
+*.npy
+*.npz
+*.parquet
+
+# ================================
+# Airflow
+# ================================
+airflow.db
+airflow-webserver.pid
+logs/
+
+# ================================
+# Docker
+# ================================
+*.tar
+docker-compose.override.yml
+
+# ================================
+# Spark
+# ================================
+spark-warehouse/
+
+# ================================
+# Local config files
+# ================================
+config/local.yaml
+config/local.json
